@@ -10,10 +10,10 @@ const { createStore, bindActionCreators, combineReducers, applyMiddleware } = re
 		, logger = require('redux-logger').createLogger()
 
 // actions
-const CAKE_ORDERED = 'CAKE_ORDERED';
-const CAKE_RESTOCKING = 'CAKE_RESTOCKING';
-const ICECREAM_ORDERED = 'ICECREAM_ORDERED';
-const ICECREAM_RESTOCKING = 'ICECREAM_RESTOCKING';
+const CAKE_ORDERED = 'CAKE_ORDERED'
+    , CAKE_RESTOCKING = 'CAKE_RESTOCKING'
+    , ICECREAM_ORDERED = 'ICECREAM_ORDERED'
+    , ICECREAM_RESTOCKING = 'ICECREAM_RESTOCKING'
 
 
 // action creator
